@@ -119,7 +119,7 @@ function uploadImage() {
         });
 }
 
-const container = "https://marfgold1.blob.core.windows.net/images/";
+const container = "https://arifhidayatstorage.blob.core.windows.net/arifhidayatcontainer/images/";
 var currentClass, imageView;
 
 function viewImage(blobIdx) {
@@ -172,9 +172,9 @@ function analyzeImage(blobIdx) {
 }
 
 function analisaGambar(urlPath) {
-    var subscriptionKey = "bd4f483114c3415ea81a9f17b840ad90";
+    var subscriptionKey = "85a68add6fcb4326b3470d82962b2ba6";
     var uriBase =
-        "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
+        "https://westus.api.cognitive.microsoft.com/qnamaker/v4.0";
     var sourceImageUrl = urlPath;
     var params = {
         visualFeatures: "Description",
