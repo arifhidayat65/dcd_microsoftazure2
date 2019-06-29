@@ -5,7 +5,7 @@
 	use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 	use MicrosoftAzure\Storage\Common\ServiceException;
 	use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
-	$connectionString = "DefaultEndpointsProtocol=https;AccountName=marfgold1;AccountKey=6T+KopPWaPwpkYzDWn08bxZZKzm29Bqrj+QK/PKxTmU2nU/euKrEA71jhzksbEEwqaBsr269iS/3mGK31HNB9w==;EndpointSuffix=core.windows.net";
+	$connectionString = "DefaultEndpointsProtocol=https;AccountName=arifhidayatstorage;AccountKey=Q2pCG4QWoyroLFyLnakaSqLSXnArzxqK2bnUf5h/QNn+dbn3WpFdbKrg0K6+2GJijKS4UAvK/d/Js5T6YIzqeQ==;EndpointSuffix=core.windows.net";
 	$blobClient = BlobRestProxy::createBlobService($connectionString);
 	$containerName = "images";
 	if($_POST["action"] == "upload"){

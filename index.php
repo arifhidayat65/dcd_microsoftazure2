@@ -110,7 +110,7 @@
     }
 </style>
 <footer style="display: flex; justify-content: center; align-content: center; overflow: hidden; margin: 0; position: absolute; bottom: 0; width: 100%; height: 3rem; border-top: 1px solid #acacac;">
-    <a id="simpleButton" href="https://marfgold1.blogspot.com">About</a>&emsp;
-    <a id="simpleButton" href="https://github.com/marfgold1/azures2">GitHub</a>
+    <a id="simpleButton" href="https://dicdoginapp.azurewebsites.net/">About</a>&emsp;
+    <a id="simpleButton" href="https://github.com/arifhidayat65/dcd_microsoftazure2">GitHub</a>
 </footer>
 </html>
